@@ -1,15 +1,15 @@
-// Implements Stack001.h
+// Implements stack.h
 
 #include <stdio.h>
 
-#include "Stack001.h"
+#include "stack.h"
 
 void InitStack(STACK *S) {
     S->T = -1;
 }
 
 int  isFull(STACK *S) {
-    return S->T == MAX_SIZE_STACK001 - 1;
+    return S->T == MAX_SIZE_STACK - 1;
 }
 
 int  isEmpty(STACK *S) {

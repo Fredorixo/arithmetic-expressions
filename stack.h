@@ -25,16 +25,15 @@ Constraints on the implementation
 1. Arrays are of fixed size.
 2. Re-sizing of array not to be implemented.
 3. Size of array to be fixed at the time of compilation.
-4. FILO / LIFO queue implementation.
 */
 
-#ifndef STACK001
-#define STACK001
+#ifndef __STACK__
+#define __STACK__
 
-#define MAX_SIZE_STACK001 256
+#define MAX_SIZE_STACK 256
 
 typedef struct STACK{
-    char* D[MAX_SIZE_STACK001]; //The array to store the data
+    char* D[MAX_SIZE_STACK]; //The array to store the data
     int T;           // The index of the topmost place utilized till now
 } STACK;
 
@@ -47,4 +46,4 @@ char*   Pop(STACK *s); //NULL on error else address of the popped variable
 char*   Top(STACK *s); // NULL on error else address of the element in the stack
 int     Size(STACK *s);
 void    PrintStack(STACK* s);
-#endif // STACK001
+#endif // __STACK__

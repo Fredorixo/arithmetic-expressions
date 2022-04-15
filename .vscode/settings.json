@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "algebexp.h": "c"
+        "algebexp.h": "c",
+        "stdio.h": "c",
+        "stack.h": "c"
     }
 }

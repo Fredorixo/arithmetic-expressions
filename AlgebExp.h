@@ -1,5 +1,5 @@
-#ifndef __AlgebExp__
-#define __AlgebExp__
+#ifndef __ALGEBEXP__
+#define __ALGEBEXP__
 
 // Strings should not have any variables
 // EVALUATING A NOTATION
@@ -32,4 +32,4 @@ char  *makeBracketsProper(char *x);             // Places Brackets appropriately
 char  *ReverseString(char *x);                  // Reverses the Prefix Expression especially for Evaluation Purpose
 char  *Separator(char *x);                      // Add a comma ',' as a separator to differentiate between Operands
 
-#endif // __AlgebExp__
+#endif // __ALGEBEXP__

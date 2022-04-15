@@ -1,7 +1,7 @@
 #include <stdio.h>                              // For printf()
 #include <string.h>                             // For strcpy()
 
-#include "AlgebExp.h"
+#include "algebexp.h"
 
 int main(void) {
 

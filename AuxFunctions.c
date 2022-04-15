@@ -4,7 +4,7 @@
 #include <string.h>                             // For strcpy() , strlen() , strncat() , strcat() , strrev()
 #include <math.h>                               // For pow()
 
-#include "AlgebExp.h"
+#include "algebexp.h"
 
 char  *CheckUnary(char *x, char *y) {
 
