@@ -1,4 +1,4 @@
-# Header File for Algerbraic Expressions
+# Header File for Algebraic Expressions
 
 ## Introduction
 
