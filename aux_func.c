@@ -1,10 +1,8 @@
 // Implements all the Auxiliary Functions
-
 #include <stdio.h>                              // For printf()
 #include <string.h>                             // For strcpy() , strlen() , strncat() , strcat() , strrev()
 #include <math.h>                               // For pow()
-
-#include "algebexp.h"
+#include "arithexp.h"
 
 char  *CheckUnary(char *x, char *y) {
 

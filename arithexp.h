@@ -1,14 +1,13 @@
-#ifndef __ALGEBEXP__
-#define __ALGEBEXP__
+#ifndef __ARITHEXP__
+#define __ARITHEXP__
 
-// Strings should not have any variables
+// Strings used in evaluation functions should not contain variables
 // EVALUATING A NOTATION
 
 double EvaluateUsingPostfix(char *x);           // x is an Infix String
 double EvaluateUsingPrefix(char *x);            // x is an Infix String
 double EvaluatePostFix(char *x);                // x is a Postfix String
 double EvaluatePreFix(char *x);                 // x is a Prefix String
-
 
 // CONVERSIONS FROM ONE NOTATION INTO ANOTHER
 
@@ -19,9 +18,7 @@ char  *PrefixToPostfix(char *source, char *destination);
 char  *PostfixToInfix(char *source, char *destination);
 char  *PrefixToInfix(char *source, char *destination);
 
-
 // AUXILIARY FUNCTIONS
-//////////////////////////////////////////////////////////////////////////////////
 
 char  *CheckUnary(char *x, char *y);            // Converts the standard infix notation to converted unary representation
 void   FormatString(char *x, char *y);          // Add a space after each character in the given string
@@ -32,4 +29,4 @@ char  *makeBracketsProper(char *x);             // Places Brackets appropriately
 char  *ReverseString(char *x);                  // Reverses the Prefix Expression especially for Evaluation Purpose
 char  *Separator(char *x);                      // Add a comma ',' as a separator to differentiate between Operands
 
-#endif // __ALGEBEXP__
+#endif // __ARITHEXP__

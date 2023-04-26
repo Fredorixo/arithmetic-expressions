@@ -1,4 +1,4 @@
-# Header File for Algebraic Expressions
+# Header File for Arithmetic Expressions
 
 ## Introduction
 
@@ -19,22 +19,22 @@ To run the project locally,
 1. Clone the project
 
 ```bash
-git clone https://github.com/Fredorixo/Algerbraic-Expressions.git
+git clone https://github.com/Fredorixo/arithmetic-expressions.git
 ```
 
 2. Go to the project directory
 
 ```bash
-cd Algebraic-Expressions
+cd arithmetic-expressions
 ```
 
 3. To compile your main.c file, run the following command in your terminal
 
 ```bash
-gcc main.c stack.c algebexp.c auxfunctions.c
+gcc main.c stack.c arithexp.c aux_func.c
 ```
 
-This will include **stack.c**, **algebexp.c** and **auxfunctions.c** source files that contain the implementations of **stack.h** and **algebexp.h** header files.
+This will include **stack.c**, **arithexp.c** and **aux_func.c** source files that contain the implementations of **stack.h** and **arithexp.h** header files.
 
 4. Run your generated executable file
 
@@ -52,13 +52,13 @@ Before reusing a char array with a stored expression, make sure to empty it.
 ### Expression Conversion
 
 ```c
-#include "algebexp.h"
+#include "arithexp.h"
 
 // For storing the result
 char resultantExpression[200] = "";
 char prefixExpression[200] = "";
 
-CheckUnary("Your Algebraic Expression", resultantExpression);
+CheckUnary("Your Arithmetic Expression", resultantExpression);
 InfixToPrefix(resultantExpression, prefixExpression);
 PrintString(resultantExpression);
 ```
@@ -66,12 +66,12 @@ PrintString(resultantExpression);
 ### Expression Evaluation
 
 ```c
-#include "algebexp.h"
+#include "arithexp.h"
 
 // For storing the result
 char resultantExpression[200] = "";
 
-CheckUnary("Your Algebraic Expression", resultantExpression);
+CheckUnary("Your Arithmetic Expression", resultantExpression);
 EvaluateUsingPostfix(resultantExpression);
 PrintString(resultantExpression);
 ```

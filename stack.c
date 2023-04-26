@@ -1,7 +1,5 @@
 // Implements stack.h
-
 #include <stdio.h>
-
 #include "stack.h"
 
 void InitStack(STACK *S) {

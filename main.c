@@ -1,7 +1,6 @@
 #include <stdio.h>                              // For printf()
 #include <string.h>                             // For strcpy()
-
-#include "algebexp.h"
+#include "arithexp.h"
 
 int main(void) {
 

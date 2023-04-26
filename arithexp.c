@@ -1,10 +1,8 @@
-// Implements algebexp.h
-
+// Implements arithexp.h
 #include <stdio.h>                                  // For printf()
 #include <string.h>                                 // For strlen() , strcat() , strncat() , strdup() , strrev()
 #include <stdlib.h>                                 // For atof() , sprintf()
-
-#include "algebexp.h"
+#include "arithexp.h"
 #include "stack.h"                                  // For Pop() , Push() , Top() , InitStack() , makeEmpty() , isEmpty()
 
 double EvaluateUsingPostfix(char *x) {
