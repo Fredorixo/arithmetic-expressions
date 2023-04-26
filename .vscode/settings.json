@@ -1,6 +1,6 @@
 {
     "files.associations": {
-        "algebexp.h": "c",
+        "arithexp.h": "c",
         "stdio.h": "c",
         "stack.h": "c"
     }
